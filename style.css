@@ -49,7 +49,7 @@ main {
 }
 
 .title {
-  margin-top: 15px 0 5px;
+  margin: 15px 0 5px;
 }
 
 .step-number {
@@ -63,4 +63,20 @@ main {
 footer {
   height: 50px;
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 90%;
+    display: block;
+  }
+
+  .contents-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contents-box:last-child {
+    margin-bottom: 0;
+  }
 }
